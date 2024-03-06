@@ -42,7 +42,7 @@ public class TicketDaoImpl implements TicketDao {
 	public String delete(int id) {
 		// TODO Auto-generated method stub
 		template.opsForHash().delete(HASH_KEY, id);
-		return "order removed !!";
+		return "ticket removed !!";
 	}
 
 }
